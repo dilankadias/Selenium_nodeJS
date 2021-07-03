@@ -4,3 +4,6 @@ npm init -y
 
 //Selenium-Webdriver
 npm install --save selenium-webdriver chromedriver geckodriver
+
+Help : 
+https://www.lambdatest.com/blog/automation-testing-with-selenium-javascript/
