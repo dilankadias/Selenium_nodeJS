@@ -3,8 +3,8 @@ require('chromedriver');
 
 async function search(){
   const searchString = 'Car Next Door';
-  const username = 'mapddias@gmail.com';
-  const password = 'Smdpinto123';
+  const username = 'PUT YOUR EMAIL HERE';
+  const password = 'PUT YOUR PASSWORD HERE';
 
   //To wait for browser to build and launch properly
   const driver = await new Builder().forBrowser('chrome').build();
