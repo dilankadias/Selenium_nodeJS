@@ -2,8 +2,8 @@ const { By, Key, Builder, WebElement, Alert } = require('selenium-webdriver');
 require('chromedriver');
 
 async function login(){
-  const username = 'mapddias@gmail.com';
-  const password = 'Smdpinto123';
+  const username = 'PUT YOUR EMAIL HERE';
+  const password = 'PUT YOUR PASSWORD HERE';
 
   //To wait for browser to build and launch properly.
   const driver = await new Builder().forBrowser('chrome').build();
