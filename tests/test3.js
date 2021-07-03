@@ -2,8 +2,8 @@ const { By, Key, Builder, WebElement } = require('selenium-webdriver');
 require('chromedriver');
 
 async function search(){
-  const username = 'mapddias@gmail.com';
-  const password = 'Smdpinto123';
+  const username = 'ADD YOUR EMAIL HERE';
+  const password = 'ADD YOUR PASSWORD HERE';
 
   //To wait for browser to build and launch properly
   const driver = await new Builder().forBrowser('chrome').build();
