@@ -1,0 +1,6 @@
+Commands to run before setting up : 
+//NPM
+npm init -y
+
+//Selenium-Webdriver
+npm install --save selenium-webdriver chromedriver geckodriver
